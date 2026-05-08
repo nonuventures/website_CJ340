@@ -3,14 +3,44 @@ import Layout from '../layouts/Layout.astro';
 ---
 
 <Layout title="Mahindra CJ340 Spare Parts | Original & Reconditioned - Nonu Ventures">
-  <div class="max-w-7xl mx-auto px-4 py-12">
-    <h1 class="text-5xl font-bold text-center">Mahindra CJ340 Spare Parts</h1>
-    <p class="text-xl text-center mt-4 text-gray-600">Genuine & High-Quality Reconditioned Parts for the Legendary Mahindra CJ340 Jeep</p>
-    
-    <!-- Gallery and content will go here -->
-    <div class="mt-12">
-      <h2 class="text-3xl font-semibold">Available Parts</h2>
-      <!-- More detailed content -->
+  <main class="min-h-screen bg-gray-50">
+    <div class="max-w-7xl mx-auto px-6 py-12">
+      <h1 class="text-5xl font-bold text-center mb-4">Mahindra CJ340 Spare Parts</h1>
+      <p class="text-2xl text-center text-gray-700 max-w-3xl mx-auto">Genuine & Reconditioned Parts for the Iconic Mahindra CJ340 Jeep</p>
+      
+      <div class="mt-10 grid md:grid-cols-2 gap-12">
+        <!-- Left column: Content -->
+        <div>
+          <h2 class="text-3xl font-semibold mb-6">Why Choose Nonu Ventures for CJ340 Parts?</h2>
+          <ul class="space-y-4 text-lg">
+            <li>✅ 10+ years supplying rare Mahindra CJ340 components</li>
+            <li>✅ Original & high-quality reconditioned options</li>
+            <li>✅ Fast worldwide shipping via UPS & FedEx</li>
+            <li>✅ Trusted by CJ340 owners in Australia, Middle East & India</li>
+          </ul>
+        </div>
+        
+        <!-- WhatsApp CTA -->
+        <div class="bg-green-600 text-white rounded-2xl p-8 text-center">
+          <p class="text-2xl font-semibold">Need parts urgently?</p>
+          <a href="https://wa.me/919876543210" class="block mt-6 bg-white text-green-600 font-bold text-xl py-4 px-10 rounded-xl hover:bg-gray-100">Chat on WhatsApp Now</a>
+        </div>
+      </div>
+
+      <!-- Product Gallery Section -->
+      <section class="mt-16">
+        <h2 class="text-3xl font-semibold mb-8">Popular CJ340 Parts</h2>
+        <div class="grid grid-cols-2 md:grid-cols-3 gap-8">
+          <!-- Image placeholders -->
+          <div class="bg-white rounded-2xl overflow-hidden shadow">
+            <img src="/images/cj340-steering-box.jpg" alt="Mahindra CJ340 Complete Steering Box Original" class="w-full h-64 object-cover">
+            <div class="p-6">
+              <h3 class="font-semibold">Steering Box Complete</h3>
+            </div>
+          </div>
+          <!-- Repeat for other parts -->
+        </div>
+      </section>
     </div>
-  </div>
+  </main>
 </Layout>
